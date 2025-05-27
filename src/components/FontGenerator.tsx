@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { generateFont, trainModel } from '../services/fontGenerator';
-import type { FontGeneratorResponse } from '../services/fontGenerator';
 
 export const FontGenerator: React.FC = () => {
   const [language, setLanguage] = useState<'hindi' | 'english'>('english');
